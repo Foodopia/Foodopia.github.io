@@ -4,7 +4,7 @@ body{width: 100%;height: 100%;}
 .backgroundtext{background: url(../Images/PP49120913-Tomatoes-texture-background-red-vegetables.jpg)repeat fixed;-webkit-background-clip: text;-webkit-text-fill-color: transparent;background-size: cover;background-position: center;}
 .whiteblock{background-color: white;padding: 15px;}
 .background{background: url("../Images/PP49120913-Tomatoes-texture-background-red-vegetables.jpg")repeat fixed 100%;background-size: cover;height: 90%;}
-.background3{background-color: white;height: 40%;}
+.background3{background-color: white;min-height: 40%;}
 .footer{background-color: #1c1c1c; min-height:70px;}
 
 #navbar img{padding-top: 12px;}
@@ -28,7 +28,20 @@ body{width: 100%;height: 100%;}
 .fb{color: white;margin-top: 5px;}
 .fb:hover{color: greenyellow;}
 
-
+@media (max-width: 1050px){
+    .navbar img{padding-bottom: 2px;}
+    .navbar{height: 0px;overflow: hidden;transition: 1s ease;}
+    .navbar:hover{min-height: 220px;}
+    .navbar .col-xs-12{border-bottom: solid #1c1c1c 2px; width: 80%;left: 10%;}
+    .maintitle{font-size: 3.5em;}
+    .spacer{margin-top: 50%}
+    .whiteblock{padding: 2px;}
+    p{font-size: 1em;}
+    .tab{width: 100%;}
+    #info .whiteblock{width: 70%;padding: 10px;}
+    .bio{border-right-color: transparent;border-bottom: solid black 3px;}
+    .mid{border-right-color: transparent;border-left-color: transparent;border-bottom: solid black 2px;border-top: solid black 2px;}
+}
 
 
 
